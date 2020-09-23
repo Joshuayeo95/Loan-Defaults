@@ -100,6 +100,8 @@ def data_report(df, reminders=False):
         print('Reminder : Check the count plots for categorical variables.')
         print('Reminder : Check for potential outliers - Boxplots / Scatterplots')
         print('Reminder : Plot the Correlation Heatmap.')
+        print()
+        print('For Bivariate Analysis:')
         print('1. For continuous - continuous correlations, use Pearsons Correlation.')
         print('2. For binary - continuous correlations, use Point Biserial Correlation.')
         print('3. For ordinal - continuous correlations, use Spearmans Rho.')
@@ -190,6 +192,7 @@ def check_negative(df, exclude_vars=[]):
     
     Returns:
         results : Pandas DataFrame
+            Dataframe of 
 
     '''
     numeric_vars = df.select_dtypes(include='number').columns.to_list()
@@ -321,7 +324,7 @@ def create_time_vars(df, time_var, year=True, month=True, day=True, season=True,
 
     if drop:
        df = df.drop(time_var, axis=1)
-       print('Datetime variable has been dropped.')
+       print('Original time variable has been dropped.')
     
     return df
 
