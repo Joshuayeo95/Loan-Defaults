@@ -103,7 +103,7 @@ def count_pie_plots(df, var, figsize=(8,4), palette='pastel', return_order=False
         annot_size : int
             Sets the font size of label value annotations.
         tight_layout = bool
-            Ensure subplots fit nicely in the figure.    
+            Ensure subplots fit nicely in the figure.
     '''
 
     fig, (ax1,ax2) = plt.subplots(nrows=1, ncols=2, figsize=figsize)
@@ -148,6 +148,7 @@ def count_pie_plots(df, var, figsize=(8,4), palette='pastel', return_order=False
 
     if return_order:
         return sorted_order
+    
 
 ## TODO : Add kwargs to change category names in the x-axis
 def barplot_with_hue(df, var, target, y_label='Percentage', order=None, figsize=(6,4), palette='pastel', sort_val_desc=True, remove_yticks=True, dec_places=1, annot_size=14):
