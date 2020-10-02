@@ -86,7 +86,7 @@ def training_vs_testing_plot(results, figsize=(5,5), title_fs=18, legend_fs=12):
     '''
     
     fig = plt.figure(figsize=figsize)
-    plt.style.use('fivethirtyeight')
+    plt.style.use('seaborn-muted')
     plt.title('Cross Validation : Training vs Testing Scores', y=1.03, x=0.6, size=title_fs)
     plt.plot(results.TrainScores, color='b', label='Training')
     plt.plot(results.TestScores, color='r', label='Testing')
