@@ -3,6 +3,10 @@
 
 In this project, the aim was to develop a model that would help to identify borrowers who were the most likely to default on their loans.
 
+Preprocessing and Exploratory Data Analysis results can be viewed in the `eda.ipynb` notebook, and the training and validation of different models can be found in the `ml_models.ipynb` notebook.
+
+These notebooks contain clear documentation of my thought process as i was working through the project.
+
 ## Machine Learning Models
 
 * NearestCentroid
