@@ -7,7 +7,7 @@ Preprocessing and Exploratory Data Analysis results can be viewed in the `eda.ip
 
 These notebooks contain clear documentation of my thought process as i was working through the project.
 
-__Note__: The functions used in this notebook can be found in the scripts within the utils folder.
+__Note__: The functions used in this notebook can be found in the scripts within the `utils` folder.
 
 ## Machine Learning Models
 
