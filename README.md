@@ -7,6 +7,8 @@ Preprocessing and Exploratory Data Analysis results can be viewed in the `eda.ip
 
 These notebooks contain clear documentation of my thought process as i was working through the project.
 
+__Note__: The functions used in this notebook can be found in the scripts within the utils folder.
+
 ## Machine Learning Models
 
 * NearestCentroid
@@ -31,6 +33,3 @@ The individual models were trained using __5-Fold cross validation__ on the trai
 The primary metric used to evaluate model performance is the __F1 Score__, which is the harmonic mean between precision and recall. The rationale for choosing F1 is that we want to __identify as many defaults as possible while ensuring that our model is not over predicting the defaults__. 
 
 Additionally, we will provide insgihts about the model performances in relation to its __precision__ and __recall__ and how different use cases may favour different models.
-
-
-__Note__: The functions used in this notebook can be found in the scripts within the utils folder.
